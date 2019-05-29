@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>PROFILE</title>
+		<meta name="description" content="An experimental slideshow with an inclined look with three slide previews and a content view on click." />
+		<meta name="keywords" content="slideshow, javascript, tweenmax, rotation, animation, css" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<main>
+			<div class="content">
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/1.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">18 MAR 2000</span>
+						<h2 class="content__item-header-title">My Profile.</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+						My name is Bew. I'm was born in 18 Mar 2000. Now I'm 19 year old.  I am graduate from King Mongkuts University of Technology Thonburi
+
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/2.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">My Skills</span>
+						<h2 class="content__item-header-title">SKILL</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							I have Java writing skills. Skills for creating web sites, both backend and frontend skills, using PHOTOSHOP, self-assembly skills, creating games and more.
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/3.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">LIFESTYLE</span>
+						<h2 class="content__item-header-title">STYLE</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							I am the person who is gradually Able to match everyone Living life is not very stressful. But when working, I will be serious. Because I think that when we should not play for the best work out
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/4.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Musician</span>
+						<h2 class="content__item-header-title">HOBBY</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							I am a person who loves music. Because music makes me get many friends And music is something that heals me when I feel uncomfortable Most of my free time is focused on my music practice. I have a position in the Dr Band, drummer. I love to play music with friends. And love the fun of music
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+			</div>
+			<div class="revealer">
+				<div class="revealer__inner"></div>
+			</div>
+			<div class="grid grid--slideshow">
+				<figure class="grid__item grid__item--slide">
+					<span class="number">01</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/1.jpg);"></div>
+					</div>
+					<figcaption class="caption">BangKok -18 MAR 2000.</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">02</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/2.jpg);"></div>
+					</div>
+					<figcaption class="caption">My SKILLS</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">03</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/3.jpg);"></div>
+					</div>
+					<figcaption class="caption">LIFESTYLE</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">04</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/4.jpg);"></div>
+					</div>
+					<figcaption class="caption">Musician</figcaption>
+				</figure>
+				<div class="titles-wrap">
+					<div class="grid grid--titles">
+						<h3 class="grid__item grid__item--title">ProFile</h3>
+						<h3 class="grid__item grid__item--title">SKILL</h3>
+						<h3 class="grid__item grid__item--title">STYLE</h3>
+						<h3 class="grid__item grid__item--title">HOBBY</h3>
+					</div>
+				</div>
+				<div class="grid grid--interaction">
+					<div class="grid__item grid__item--cursor grid__item--left"></div>
+					<div class="grid__item grid__item--cursor grid__item--center"></div>
+					<div class="grid__item grid__item--cursor grid__item--right"></div>
+				</div>
+			</div>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">Bew</h1>
+					<div class="frame__mode" role="radiogroup">
+						<div class="frame__mode-item frame__mode-item--dark">
+							<input id="mode-1" type="radio" name="mode" class="frame__mode-input"></input>
+							<label class="frame__mode-label" for="mode-1">Dark mode</label>
+						</div>
+						<div class="frame__mode-item">
+							<input id="mode-2" type="radio" name="mode" class="frame__mode-input" checked></input>
+							<label class="frame__mode-label frame__mode-label--light" for="mode-2">Light mode</label>
+						</div>
+					</div>
+				</div>
+			</div><!-- /frame -->
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/charming.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo.js"></script>
+	</body>
+</html>
