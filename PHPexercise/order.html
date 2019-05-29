@@ -1,0 +1,32 @@
+<html>
+
+<body>
+    <form action = "submitOrder.php" onsubmit ="return valnameateForm()" method = "post" name = "myOrder">
+        <h1>Your order</h1>
+        Bicycle;:&nbsp;<input name="A1" type="number"placeholder="How many">&nbsp;:&nbsp;<input name="A2" type="number"placeholder="Price"><br><br>
+        Helmet;:&nbsp;<input name="B1" type="number"placeholder="How many">&nbsp;:&nbsp;<input name="B2" type="number"placeholder="Price"><br><br>
+        gloves;:&nbsp;<input name="C1" type="number"placeholder="How many">&nbsp;:&nbsp;<input name="C2" type="number"placeholder="Price"><br><br>
+         
+        <button  class="buttons" onclick="myFunction()">Process my order</button>&nbsp;
+        
+
+    </form>
+
+</body>
+
+<script>
+    function valnameateForm() {
+        var a = document.forms["myOrder"]["A1"].value;
+        var b = document.forms["myOrder"]["A2"].value;
+        var c = document.forms["myOrder"]["B1"].value;
+        var d = document.forms["myOrder"]["B2"].value;
+        var e = document.forms["myOrder"]["C1"].value;
+        var f = document.forms["myOrder"]["C2"].value;
+        if (a < 0|b < 0|c < 0|d < 0|e < 0|f < 0) {
+            alert("Form must be filled out or value can't be negative number");
+            return false;
+        }
+    }
+</script>
+
+</html>
